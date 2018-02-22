@@ -1,0 +1,66 @@
+2018-02-21T23:30:47+00:00 CRITICAL Uncaught Exception: Invalid data store. in D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-data-store.php:100
+Stack trace:
+#0 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(129): WC_Data_Store->__construct('customer')
+#1 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-customer.php(100): WC_Data_Store::load('customer')
+#2 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-woocommerce.php(477): WC_Customer->__construct(1, true)
+#3 D:\OSPanel\domains\ninjasTest.loc\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#4 D:\OSPanel\domains\ninjasTest.loc\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 D:\OSPanel\domains\ninjasTest.loc\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#6 D:\OSPanel\domains\ninjasTest.loc\wp-settings.php(450): do_action('init')
+#7 D:\OSPanel\domains\ninjasTest.loc\wp-config.php(89): require_once('D
+
+2018-02-21T23:32:21+00:00 CRITICAL Uncaught Exception: Invalid data store. in D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-data-store.php:100
+Stack trace:
+#0 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(129): WC_Data_Store->__construct('customer')
+#1 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-customer.php(100): WC_Data_Store::load('customer')
+#2 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-woocommerce.php(477): WC_Customer->__construct(1, true)
+#3 D:\OSPanel\domains\ninjasTest.loc\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#4 D:\OSPanel\domains\ninjasTest.loc\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 D:\OSPanel\domains\ninjasTest.loc\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#6 D:\OSPanel\domains\ninjasTest.loc\wp-settings.php(450): do_action('init')
+#7 D:\OSPanel\domains\ninjasTest.loc\wp-config.php(89): require_once('D
+
+2018-02-21T23:32:22+00:00 CRITICAL Uncaught Exception: Invalid data store. in D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-data-store.php:100
+Stack trace:
+#0 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(129): WC_Data_Store->__construct('webhook')
+#1 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\wc-webhook-functions.php(102): WC_Data_Store::load('webhook')
+#2 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-woocommerce.php(630): wc_load_webhooks()
+#3 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-woocommerce.php(483): WooCommerce->load_webhooks()
+#4 D:\OSPanel\domains\ninjasTest.loc\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#5 D:\OSPanel\domains\ninjasTest.loc\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 D:\OSPanel\domains\ninjasTest.loc\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 D:\OSPanel\domains\ninjas
+
+2018-02-21T23:32:37+00:00 CRITICAL Uncaught Exception: Invalid data store. in D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-data-store.php:100
+Stack trace:
+#0 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(129): WC_Data_Store->__construct('webhook')
+#1 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\wc-webhook-functions.php(102): WC_Data_Store::load('webhook')
+#2 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-woocommerce.php(630): wc_load_webhooks()
+#3 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-woocommerce.php(483): WooCommerce->load_webhooks()
+#4 D:\OSPanel\domains\ninjasTest.loc\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#5 D:\OSPanel\domains\ninjasTest.loc\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 D:\OSPanel\domains\ninjasTest.loc\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 D:\OSPanel\domains\ninjas
+
+2018-02-21T23:33:21+00:00 CRITICAL Uncaught Exception: Invalid data store. in D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-data-store.php:100
+Stack trace:
+#0 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(129): WC_Data_Store->__construct('webhook')
+#1 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\wc-webhook-functions.php(102): WC_Data_Store::load('webhook')
+#2 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-woocommerce.php(630): wc_load_webhooks()
+#3 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woocommerce\includes\class-woocommerce.php(483): WooCommerce->load_webhooks()
+#4 D:\OSPanel\domains\ninjasTest.loc\wp-includes\class-wp-hook.php(286): WooCommerce->init('')
+#5 D:\OSPanel\domains\ninjasTest.loc\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 D:\OSPanel\domains\ninjasTest.loc\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#7 D:\OSPanel\domains\ninjas
+
+2018-02-22T20:53:20+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on boolean in D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woo_films\classes\films.php:303
+Stack trace:
+#0 D:\OSPanel\domains\ninjasTest.loc\wp-includes\shortcodes.php(319): Films->film_product_add_to_cart(Array, '', 'film_add_to_car...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 D:\OSPanel\domains\ninjasTest.loc\wp-includes\shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(film_a...', 'do_shortcode_ta...', '[film_add_to_ca...')
+#3 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woo_films\templates\films-list.php(27): do_shortcode('[film_add_to_ca...')
+#4 D:\OSPanel\domains\ninjasTest.loc\wp-includes\template.php(690): require('D:\\OSPanel\\doma...')
+#5 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woo_films\functions.php(59): load_template('D:\\OSPanel\\doma...', false)
+#6 D:\OSPanel\domains\ninjasTest.loc\wp-content\plugins\woo_films\functions.php(16): films_locate_template(Array, true, false)
+#7 D:\OSPanel\domains\
+
